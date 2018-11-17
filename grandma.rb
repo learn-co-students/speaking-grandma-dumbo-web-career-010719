@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Write a speak_to_grandma method.
 require "pry"
 def speak_to_grandma(phrase)
@@ -22,3 +23,12 @@ end
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+=======
+def speak_to_grandma
+  phrase= gets.chomp
+  if phrase == "I LOVE YOU GRANDMA"
+     puts "I LOVE YOU TOO PUMPKIN"
+  end
+end
+speak_to_grandma
+>>>>>>> cca2f3d2e00363cf9bfa46068ca78ab769cf3abb
